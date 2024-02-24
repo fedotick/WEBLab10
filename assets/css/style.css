@@ -113,10 +113,9 @@ header > .content {
     padding: 10px 50px;
     color: rgb(255, 255, 255);
     background-color: rgb(50, 50, 50);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.55);
 }
 
-.task-1 {
+.task-content {
     padding: 50px;
     background-color: rgb(255, 255, 255);
 }
@@ -130,6 +129,30 @@ header > .content {
     color: rgb(255, 0, 0);
     font-weight: bold;
     font-style: italic;
+}
+
+.task-2 {
+    width: 700px;
+    font-size: 24.4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.task-2 h1 {
+    margin-top: 0;
+}
+
+.task-2 p {
+    text-align: justify;
+}
+
+.task-2 p::before {
+    content: "Начало: ";
+    color: rgb(255, 0, 0);
+}
+
+.task-2 p::after {
+    content: " :конец!";
+    color:rgb(0, 128, 0);
 }
 
 footer {
