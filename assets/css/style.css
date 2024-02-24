@@ -266,6 +266,22 @@ header > .content {
     background-color: rgb(255, 6, 125);
 }
 
+.task-4 a {
+    padding: 10px 14px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(61, 61, 61);
+}
+
+.task-4 a.active {
+    background-color: rgb(255, 108, 0);
+}
+
+.task-4 a:hover {
+    background-color: rgb(255, 108, 0);
+    transition: all 0.3s ease-in-out;
+}
+
 footer {
     margin-top: auto;
     height: 100px;
